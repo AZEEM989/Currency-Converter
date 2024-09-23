@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(vecteezy_big-pile-of-egyptian-pound-notes-a-lot-of-money-over_11717204.png);
+    background-size:cover;
+    background-color: cadetblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 25vh;
+    width: 40vh;
+}
+.container h2{
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+form{
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form select,button,input{
+    width: 100%;
+    height: 20%;
+   border: none;
+   outline: none;
+   border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left:0.75rem;
+}
+.dropdown{
+    
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+options {
+    width: 10vw;
+}
+.dropdown p{
+    text-align: center;
+}
+.dropdown i{
+    font-size: 1.5rem;
+}
+.select-container{
+    padding: 1rem;
+    /* border: 1px solid rgba(180, 173, 173, 0.405); */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select-container select{
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: burlywood;
+   
+}
+
+.curBt{
+    margin-top: 1rem;
+    height: 7vh;
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(172, 179, 179);
+}
+.msg{
+ margin-top:2rem;   
+}
+  
+
+.curBt:hover{
+    color: white;
+    background-color: purple;
+    
+}
